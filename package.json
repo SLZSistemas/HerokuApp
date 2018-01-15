@@ -1,0 +1,12 @@
+{
+    "name": "slzsistemas",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "4.13.3"
+    },
+    "author": "SLZ Sistemas",
+    "license": "MIT"
+}

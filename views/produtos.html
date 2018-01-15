@@ -1,0 +1,8 @@
+<h1>{{titulo}}</h1>
+<ul>
+    <h4>Sistemas de Gestão para:</h4>
+    <li ng-repeat="produto in produtos">
+        <a ng-href={{produto.link}}>{{produto.nome}}</a>
+    </li>
+</ul>
+<span>Entre em <a href="#!/contato">contato</a> conosco para adquirir nossos produtos.</span>
